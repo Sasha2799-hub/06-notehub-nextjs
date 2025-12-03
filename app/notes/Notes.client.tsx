@@ -7,7 +7,7 @@ import SearchBox from "../../components/SearchBox/SearchBox";
 import css from "./NotesPages.module.css";
 import Modal from "../../components/Modal/Modal";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
-import { fetchNotes } from "../../lib/app";
+import { fetchNotes } from "../../lib/api";
 import type { NotesResponse } from "../../types/note";
 import { useDebounce } from "use-debounce";
 
