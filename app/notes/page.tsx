@@ -5,7 +5,7 @@ import {
   dehydrate,
 } from "@tanstack/react-query";
 
-import { fetchNotes } from "@/app/lib/app";
+import { fetchNotes } from "@/lib/app";
 import NotesClient from "@/app/notes/NotesClient";
 
 

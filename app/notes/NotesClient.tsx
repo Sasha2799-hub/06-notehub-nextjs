@@ -1,14 +1,14 @@
 'use client'
 import { useState } from "react";
-import NoteList from "../components/NoteList/NoteList";
-import NoteForm from "../components/NoteForm/NoteForm";
-import Pagination from "../components/Pagination/Pagination";
-import SearchBox from "../components/SearchBox/SearchBox";
+import NoteList from "../../components/NoteList/NoteList";
+import NoteForm from "../../components/NoteForm/NoteForm";
+import Pagination from "../../components/Pagination/Pagination";
+import SearchBox from "../../components/SearchBox/SearchBox";
 import css from "./NotesPages.module.css";
-import Modal from "../components/Modal/Modal";
+import Modal from "../../components/Modal/Modal";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
-import { fetchNotes } from "../lib/app";
-import type { NotesResponse } from "../types/note";
+import { fetchNotes } from "../../lib/app";
+import type { NotesResponse } from "../../types/note";
 import { useDebounce } from "use-debounce";
 
 export default function NotesClient() {
