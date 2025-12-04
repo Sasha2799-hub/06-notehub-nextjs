@@ -8,7 +8,7 @@ import css from "./NotesPages.module.css";
 import Modal from "../../components/Modal/Modal";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
 import { fetchNotes } from "../../lib/api";
-import type { NotesResponse } from "../../types/note";
+import type { NotesResponse } from "../../lib/api";
 import { useDebounce } from "use-debounce";
 
 export default function NotesClient() {

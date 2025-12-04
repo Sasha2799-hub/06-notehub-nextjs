@@ -7,7 +7,7 @@ import {
 } from "@tanstack/react-query";
 
 interface Props {
-  params: { id: string };
+  params: Promise< { id: string }>;
 }
 
 const NoteDetails = async ({ params }: Props) => {

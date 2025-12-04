@@ -12,8 +12,4 @@ export interface CreateNote {
   tag: string;
 }
 
-export interface NotesResponse {
-  notes: Note[];
-  totalPages: number;
-}
 
